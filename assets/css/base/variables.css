@@ -1,8 +1,9 @@
 :root {
-  --body-bg-color: #22212C;
-  --text-color: #837E9F;
-  --bg-cards: #302F3D;
+  --body-bg-color: #010409;
+  --text-color: #c9d1d9;
+  --bg-cards: #0d1117;
   --bg-techs: #CB92B1;
   --font-family: 'Merriweather Sans', sans-serif;
   --userImage-border: #ffffff;
+  --card-border: #30363d;
 }

@@ -25,6 +25,7 @@ main{
 .card{
 	background: var(--bg-cards);
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	border: 2px solid var(--card-border);
 	border-radius: 20px;
 	margin: 0 0 30px 0;
 }
