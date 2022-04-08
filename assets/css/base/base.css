@@ -39,7 +39,7 @@ main{
   margin: 2rem 0;
   clip-path: circle();
   border-radius: 100% ;
-  border: 3px solid #00FF00;
+  border: 3px solid var(--userImage-border);
 }
 
 /* @media(min-width: 800px) {
