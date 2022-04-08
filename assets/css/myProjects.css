@@ -1,0 +1,67 @@
+.myProject__header{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.myProject__header__all{
+  line-height: 17.6px;
+}
+
+.myProjects__body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.myProjects__body__project{
+  padding: 30px;
+  box-sizing: border-box;
+  width: calc(50% - 1rem);
+}
+
+.project__title{
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project__title::before{
+  content: url(../img/folder.svg);
+  margin-right: 1rem;
+}
+
+.project__desc{
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  width: auto;
+}
+
+.project__footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project__coms{
+  display: flex;
+  align-items: center;
+}
+
+.project__stars, .project__shares{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.project__stars::before{
+  content: url(../img/star.svg);
+  margin-right: 0.5rem;
+}
+
+.project__shares::before{
+  content: url(../img/git-branch.svg);
+  margin-right: 0.5rem;
+}

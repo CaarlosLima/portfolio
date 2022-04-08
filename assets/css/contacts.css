@@ -1,0 +1,28 @@
+.contacts{
+  padding: 30px 40px;
+}
+
+.contacts__list {
+  list-style: none;
+}
+
+.contacts__itens {
+  margin: 20px 0;
+}
+
+.contacts__links{
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  text-decoration: none;
+  line-height: 1rem;
+}
+
+.contacts__icons{
+  color: aquamarine;
+  margin-right: 20px;
+}
+
+.contacts__itens:first-child, .contacts__itens:last-child{
+  margin: 0;
+}

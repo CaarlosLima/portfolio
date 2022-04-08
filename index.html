@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="userBadge">Portfólio Rocketseat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/base/reset.css" />
+    <link rel="stylesheet" href="assets/css/base/variables.css" />
+    <link rel="stylesheet" href="assets/css/base/base.css" />
+    <link rel="stylesheet" href="assets/css/profile.css" />
+    <link rel="stylesheet" href="assets/css/contacts.css" />
+    <link rel="stylesheet" href="assets/css/skills.css" />
+    <link rel="stylesheet" href="assets/css/myProjects.css" />
+    <link rel="stylesheet" href="assets/css/posts.css" />
+    <link rel="stylesheet" href="assets/css/usedLanguages.css" />
+
+    <script src="assets/scripts/infosGithub.js" defer></script>
+    <script src="assets/scripts/projectsGithub.js" defer></script>
+  </head>
+  <body>
+    <aside>
+      <section class="profile card">
+        <img class="profile__photo userImage" src="" alt="Foto do usuario" />
+        <h1 class="profile__userName" id="userName">User Name</h1>
+        <p class="profile__bio" id="userBio">User Bio</p>
+      </section>
+      <section class="contacts card">
+        <ul class="contacts__list">
+          <li class="contacts__itens">
+            <a
+              href="https://www.google.com/maps/place/R.+Jose+Manoel+Nascimento,+Laguna+-+SC,+88790-000/@-28.4302397,-48.8733217,17z/data=!3m1!4b1!4m5!3m4!1s0x952145a5adff5d6f:0x49b9d3a12aff8567!8m2!3d-28.4302444!4d-48.871133"
+              class="contacts__links"
+              target="_blank"
+            >
+              <img
+                class="contacts__icons"
+                src="assets/img/map-pin.svg"
+                alt=""
+              />
+              Brasil
+            </a>
+          </li>
+          <li class="contacts__itens alura">
+            <a
+              href="https://cursos.alura.com.br/user/caarloslima"
+              class="contacts__links"
+              target="_blank"
+            >
+              <img
+                class="contacts__icons"
+                src="assets/img/briefcase.svg"
+                alt=""
+              />
+              Alura
+            </a>
+          </li>
+          <li class="contacts__itens github">
+            <a
+              href="https://github.com/CaarlosLima"
+              class="contacts__links"
+              target="_blank"
+            >
+              <img class="contacts__icons" src="assets/img/github.svg" alt="" />
+              CaarlosLima</a
+            >
+          </li>
+          <li class="contacts__itens linkedin">
+            <a
+              href="https://www.linkedin.com/in/caarloslima/"
+              class="contacts__links"
+              target="_blank"
+            >
+              <img
+                class="contacts__icons"
+                src="assets/img/linkedin.svg"
+                alt=""
+              />
+              CaarlosLima</a
+            >
+          </li>
+          <li class="contacts__itens twitter">
+            <a
+              href="https://twitter.com/CaarlosLim"
+              class="contacts__links"
+              target="_blank"
+            >
+              <img
+                class="contacts__icons"
+                src="assets/img/twitter.svg"
+                alt=""
+              />
+              CaarlosLim</a
+            >
+          </li>
+          <li class="contacts__itens">
+            <a
+              href="mailto:caarlos821@gmail.com"
+              class="contacts__links"
+              target="_blank"
+            >
+              <img class="contacts__icons" src="assets/img/mail.svg" alt="" />
+              caarlos821@gmail.com</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="skills card">
+        <h2 class="skills__tittle">Tecnologias</h2>
+        <ul class="skills__list">
+          <li class="skills__itens">JavaScript</li>
+          <li class="skills__itens">HTML5</li>
+          <li class="skills__itens">CSS3</li>
+          <li class="skills__itens">MySQL</li>
+          <li class="skills__itens">GIT</li>
+        </ul>
+      </section>
+      <section class="usedLanguages card">
+        <a href="https://github.com/CaarlosLima">
+          <img
+            class="usedLanguages__graph"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaarlosLima&layout=compact&langs_count=7&theme=dracula"
+          />
+        </a>
+      </section>
+    </aside>
+    <main>
+      <section class="myProjects">
+        <div class="myProject__header card">
+          <h2 class="myProject__header__title title">My Projects</h2>
+          <a
+            class="myProject__header__all"
+            href="https://github.com/CaarlosLima?tab=repositories"
+            >Veja Todos</a
+          >
+        </div>
+        <div class="myProjects__body"></div>
+      </section>
+      <section class="recentPosts card">
+        <h2 class="posts__title title">Recent Posts</h2>
+      </section>
+      <section class="posts">
+        <!-- <section class="posts__post card">
+          <img class="userImage" src="" alt="Foto do usuario" />
+          <div class="post__body">
+            <h3 class="post__title">
+              Erro adb devices no Genymotion e Android Studio (React Native)
+            </h3>
+            <p class="post__time">2 anos atrás</p>
+            <p class="post__desc">
+              Erro adb devices no Genymotion e Android Studio (React Native)
+            </p>
+            <ul class="post__hashtags">
+              <li class="post__itens">#react-native</li>
+              <li class="post__itens">#genimotion</li>
+              <li class="post__itens">#genimotion</li>
+              <li class="post__itens">#genimotion</li>
+            </ul>
+          </div>
+        </section> -->
+      </section>
+    </main>
+  </body>
+</html>
