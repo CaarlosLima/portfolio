@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title id="userBadge">Portfólio Rocketseat</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,12 +26,17 @@
     <link rel="stylesheet" href="assets/css/myProjects.css" />
     <link rel="stylesheet" href="assets/css/posts.css" />
     <link rel="stylesheet" href="assets/css/usedLanguages.css" />
+    <link rel="stylesheet" href="assets/css/switch.css" />
 
-    <script src="assets/scripts/infosGithub.js" defer></script>
+    <script src="assets/scripts/main.js" defer></script>
     <script src="assets/scripts/projectsGithub.js" defer></script>
   </head>
   <body>
     <aside>
+      <div>
+        <input id="btn" type="button" class="switch" />
+        <label for="btn" class="switch__label"></label>
+      </div>
       <section class="profile card">
         <img class="profile__photo userImage" src="" alt="Foto do usuario" />
         <h1 class="profile__userName" id="userName">User Name</h1>

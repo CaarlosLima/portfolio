@@ -29,3 +29,7 @@ xhr.addEventListener('load', function () {
   })
 })
 xhr.send()
+
+document.querySelector('#btn').addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode')
+})

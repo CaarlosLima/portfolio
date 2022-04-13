@@ -1,0 +1,26 @@
+.dark-mode {
+  --body-bg-color: #eeeeee;
+  --text-color: #000000;
+  --bg-cards: #cecece;
+  --bg-techs: #5e4352;
+  --userImage-border: rgb(0, 0, 0);
+  --card-border: #000000;
+  --skills-text: #c9d1d9;
+  --label-icon: url(../img/moon.svg);
+}
+
+.switch__label {
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  top: 6%;
+  left: 3%;
+  background: var(--label-icon) no-repeat center;
+  border-radius: 100%;
+  background-color: var(--label);
+  cursor: pointer; 
+}
+
+.switch {
+  display: none;
+}

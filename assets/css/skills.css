@@ -17,7 +17,7 @@
   background: var(--bg-techs);
   border-radius: 30px;
   box-sizing: border-box;
-  color: #000000;
+  color: var(--skills-text);
   font-size: 10px;
   max-width: 86px;
   padding: 7px 0;

@@ -3,7 +3,10 @@
   --text-color: #c9d1d9;
   --bg-cards: #0d1117;
   --bg-techs: #CB92B1;
-  --font-family: 'Merriweather Sans', sans-serif;
   --userImage-border: #ffffff;
   --card-border: #30363d;
+  --skills-text: #000000;
+  --label-icon: url(../img/sun.svg);
+  --font-family: 'Merriweather Sans', sans-serif;
+	--label: #0d1117;
 }
